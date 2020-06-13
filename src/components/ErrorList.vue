@@ -3,7 +3,7 @@
     <div v-if="errorList.length > 0">
       <h2>There was an error fetching data.</h2>
       <ul class="errors">
-        <li v-for="error in errorList" :key="error">{{ errors }}</li>
+        <li v-for="error in errorList" :key="error">{{ error }}</li>
       </ul>
     </div>
   </div>
